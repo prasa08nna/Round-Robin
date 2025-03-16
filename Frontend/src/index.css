@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@layer components {
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+
+  .shadow-hover {
+    @apply transition-shadow duration-300 hover:shadow-xl;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600;
+  }
+}
