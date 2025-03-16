@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';
 const app = express();
 
 app.use(cors({
-    origin: https://round-robin-client.onrender.com,
+    origin:" https://round-robin-client.onrender.com",
     credentials: true
 }));
 app.use(express.json({
